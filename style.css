@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 1px solid;
+}
+
+
+/* #region NavBar */
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    font-size: 5vw ;
+    min-width: 180px;
+    justify-content:  space-around;
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+}
+
+.flex-item:hover{
+    box-shadow: 7px 12px 10px #838282;
+}
+
+.flex-item-a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.flex-item-1{ 
+    font-size: 5vw;
+    transition: 1s;
+    
+}
+
+.flex-item-2{
+    font-size: 5vw;
+    transition: 1s;
+}
+
+.flex-item-3{
+    font-size: 5vw;
+    transition: 1s;
+}
+
+.flex-img{
+    max-width: 100%;
+    height: auto;
+
+}
+
+
+/* #endregion */
+
+
+@media screen and (max-width: 800px) {
+    .flex-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+}
