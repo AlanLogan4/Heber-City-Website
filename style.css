@@ -20,19 +20,34 @@
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
-    height: 200px;
+    height: 500px;
     width: 100%;
 }
 
+/* #region hero image */
 #hero{
     background: linear-gradient(10deg, rgb(0,0,0,0.3),rgb(0,0,0,0.3)),
                 url(images/optimize2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
-
-    
+     
 }
+.activities #hero{
+    background-image: url(images/optimized2.jpg);
+    background-position: center center;
+}
+
+.thingsToSee #hero{
+    background-image: url(images/optimized2.jpg);
+    background-position: center center;
+}
+
+
+
+/* #endregion */
+
+
 
 .flex-header{
     display: flex;
@@ -47,7 +62,7 @@
 }
 
 .flex-item{
-    font-size: 5vw;
+    font-size: 4vw;
     color: white;
     background-color: rgb(71, 71, 71);
     transition: 1s;
