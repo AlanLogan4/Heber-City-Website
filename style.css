@@ -24,31 +24,6 @@
     width: 100%;
 }
 
-/* #region hero image */
-#hero{
-    background: linear-gradient(10deg, rgb(0,0,0,0.3),rgb(0,0,0,0.3)),
-                url(images/optimize2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center bottom;
-     
-}
-.activities #hero{
-    background-image: url(images/optimized2.jpg);
-    background-position: center center;
-}
-
-.thingsToSee #hero{
-    background-image: url(images/optimized2.jpg);
-    background-position: center center;
-}
-
-
-
-/* #endregion */
-
-
-
 .flex-header{
     display: flex;
     flex-direction: row;
@@ -75,9 +50,97 @@
 
 }
 
+/* #endregion */
+
+header{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+/* #region hero image */
+#hero{
+    background: linear-gradient(10deg, rgb(0,0,0,0.3),rgb(0,0,0,0.3)),
+                url(images/optimize2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+     
+}
+.activities #hero{
+    background: linear-gradient(10deg, rgb(0,0,0,0.3),rgb(0,0,0,0.3)),
+                url(images/optimized2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.thingsToSee #hero{
+    background: linear-gradient(10deg, rgb(0,0,0,0.3),rgb(0,0,0,0.3)),
+    url(images/optimized2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
 
 /* #endregion */
 
+
+/* #region articles*/
+.articles-background{
+    background-image: url(images/optimized3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+    /* #region thigns to see*/
+    .thingsToSee article{
+        display: grid;
+        grid-template: auto auto;
+    }
+
+    .thingsToSee article .grid-header{
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .thingsToSee article .grid-content{
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .thingsToSee article .grid-img{
+        grid-column: 2;
+        grid-row: 1 / span 2;
+
+    }
+
+
+    /* #endregion*/
+
+
+
+
+/* #endregion*/
+
+
+
+/* #region footer*/
+
+footer{
+    border-top: 5px solid black;
+}
+
+footer p{
+    display: flex;
+    justify-content: right;
+}
+
+/* #endregon*/
 
 @media screen and (max-width: 800px) {
     .flex-container{
