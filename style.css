@@ -8,6 +8,18 @@
 }
 
 
+.homepage h2{
+    display: flex;
+    justify-content: center;
+}
+
+.homepage p{
+    display: flex;
+    justify-content: center;
+}
+
+
+
 /* #region NavBar */
 
 .flex-container{
